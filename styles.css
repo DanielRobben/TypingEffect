@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: #272844;
+    display: flex;
+}
+
+.typing {
+    margin: auto;
+    color: #fff;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-shadow: 4px 4px 1px #ca40ba;
+    width: 21ch;
+    font-size: 5em;
+    line-height: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(21);
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
